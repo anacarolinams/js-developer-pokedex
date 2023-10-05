@@ -1,17 +1,23 @@
-* {
-    font-family: 'Roboto', sans-serif;
+* { 
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #ffffff;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    font-style: bold;
 }
 
 .content {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #C9E6F0;
 }
 
 @media screen and (min-width: 992px) {
